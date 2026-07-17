@@ -1,0 +1,15 @@
+# Запустить проверку после полной загрузки сервера.
+scan-on-startup: true
+
+# Задержка нужна, чтобы другие плагины успели загрузиться.
+startup-delay-ticks: 20
+
+# Эти папки внутри plugins никогда не считаются лишними.
+# Сравнение имён не зависит от регистра.
+ignored-folders:
+  - update
+  - bStats
+  - PluginMetrics
+  - libraries
+  - Updater
+  - .paper-remapped

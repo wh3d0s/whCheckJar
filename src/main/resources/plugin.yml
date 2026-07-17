@@ -1,0 +1,14 @@
+name: whCheckJar
+version: '1.0.0'
+main: ru.wh3d0.whCheckJar.WhCheckJarPlugin
+author: wh3d0
+website: https://hivegrief.ru
+
+commands:
+  whcheckjar:
+    aliases: [wcj]
+    permission: whcheckjar.admin
+
+permissions:
+  whcheckjar.admin:
+    default: op
